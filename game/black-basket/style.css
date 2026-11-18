@@ -788,3 +788,7 @@ button, select, summary, input[type="file"] { touch-action: manipulation; }
 }
 
 .aquarium-mascot { border-radius: 50%; vertical-align: middle; }
+
+.access-guide { text-align: center; }
+.access-guide canvas { width: 200px; height: 160px; margin: 0 auto; }
+.access-guide h1 { font-size: clamp(25px, 7vw, 40px); }

@@ -2,7 +2,7 @@
 
 const base = self.registration.scope;
 const cachePrefix = "cat-clicker-black-basket:" + base + ":";
-const cacheName = cachePrefix + "v3";
+const cacheName = cachePrefix + "v4";
 const url = (name) => new URL(name, base).href;
 const files = ["index.html", "manifest.webmanifest", "assets/black-cat-192.png", "assets/black-cat-512.png", "style.css", "cat-face.js", "stages.js", "fish-data.js", "aquarium-data.js", "achievements.js", "player-data.js", "transfer-code.js", "validation.js", "save-history.js", "save-data.js", "progress.js", "collection.js", "profile-ui.js", "power-ups.js", "access.js", "game.js", "session.js", "aquarium.js", "ui.js"].map(url);
 
